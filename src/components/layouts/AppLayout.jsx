@@ -1,8 +1,8 @@
 import React from "react"
 import { Outlet } from "react-router-dom";
-import SideBar from "./Sidebar";
 import Header from "./Header";
 import Footer from "./Footer";
+import SideBar from "./SideBar";
 
 const AppLayout = () => {
   return <div className="d-flex" style={{width: '100%'}}>
