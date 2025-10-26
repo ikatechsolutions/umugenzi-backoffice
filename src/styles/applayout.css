@@ -1,0 +1,30 @@
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Main content to the right of sidebar */
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 240px; /* même largeur que la sidebar */
+}
+
+/* Header section */
+.main-content header {
+  height: 60px;
+  background-color: #1e293b;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Page content area */
+.page-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f1f5f9;
+}

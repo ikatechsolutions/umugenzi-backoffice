@@ -1,0 +1,85 @@
+.logo {
+    width: 50%;
+    height: 100%;
+    /* max-height: px;  */
+    /* width: auto; */
+    /* object-fit: contain; */
+}
+
+
+#side_color {
+    /* background-color: #ef743c; */
+    background-color: whitesmoke;
+}
+
+aside {
+    background-color: #fff;
+    min-width: 300px;
+    max-width: 300px;
+    height: 100vh;
+}
+
+nav {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+nav {
+    scrollbar-width: thin;
+    scrollbar-color: #f3f3f3;
+}
+
+nav::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+    border-radius: 10px;
+}
+
+nav::-webkit-scrollbar-track {
+    background: #f3f3f3;
+    padding: 1px;
+}
+
+nav::-webkit-scrollbar-thumb {
+    background-color: #c4c4c4;
+    border-radius: 10px;
+}
+
+.nav-item a .menu-title {
+    font-weight: 400;
+    color: black;
+}
+
+.nav-item a {
+    color: #3d3d3d;
+    transition: ease-in-out 300ms;
+}
+
+.nav-item a .down_caret {
+    transition: transform ease-in-out 300ms;
+}
+
+.nav-item a[aria-expanded="true"] .down_caret {
+    transform: rotate(90deg);
+}
+
+.nav-item a:hover {
+    /* background-color: #f8bf75; */
+    background-color: white;
+}
+
+.nav-item .admin, .nav-item .admin:hover {
+    /* background-color: #f8bf75; */
+    background-color: #bec6c9;
+    color: var(--surface-0);
+    padding: auto 1rem;
+    font-weight: bold;
+}
+
+.menu-icon {
+    width: 35px;
+}
+
+hr {
+    background-color: red;
+}
